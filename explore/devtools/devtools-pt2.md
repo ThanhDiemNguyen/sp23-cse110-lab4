@@ -6,7 +6,7 @@
 
 2. How would you fix it? Include a screenshot of your fix. Name it fix.png (or whatever image extension you would like to use)
    
-   - To fix this problem, I used the `parseInt()` to map *num1* and *num2* to numbers.
+   - To fix this problem, I used the `parseInt()` to map `num1` and `num2` to numbers.
   
         ![](./fix.png)
 
