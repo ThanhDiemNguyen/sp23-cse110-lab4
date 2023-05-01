@@ -63,7 +63,8 @@
       - The code will `log 3 to the console` at line 12. Because the variable *lenggh* equals *prices.length*. Also, *prices* = [100, 200, 300] --> *length* = *prices.length* = 3.
 
 11.  What will this function return? Give a brief explanation. If the code causes an error, explain why. 
-    - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
+
+      - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
       - With *i* = 0, *discountedPrice* = *prices[i]* * (1 - *discount*) =  *prices[0]* * (1 - 0.5) = 100 * 0.5 = 50 --> *discounted* = [50].
       - With *i* = 1, *discountedPrice* = *prices[i]* * (1 - *discount*) =  *prices[1]* * (1 - 0.5) = 200 * 0.5 = 100.--> *discounted* = [50, 100].
       -  With *i* = 2, discountedPrice* = *prices[i]* * (1 - *discount*) =  *prices[2]* * (1 - 0.5) = 300 * 0.5 = 150.--> *discounted* = [50, 100, 150].
