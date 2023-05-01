@@ -12,7 +12,7 @@
 ### let declaration
 
 3. What is printed by line 9? If the code returns an error, explain why. 
-    - Line 9 will be printed ``` values added: 20```.
+    - Line 9 will be printed ```values added: 20```.
 
 4. What is printed by line 13? If the code returns an error, explain why. 
     - Line 13 will return the ```ReferenceError``` because the *result* variable is declared inside the *if* block using *let* declaration. Also, variables declared with *let* have block-level scope. Therefore, variable *result* is only accessible within the *if* block. Line 13 is outside the *if* block, then the variable *result* has not been defined yet, causing the *ReferenceError*.
