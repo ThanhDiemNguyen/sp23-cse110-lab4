@@ -37,7 +37,8 @@
     - The code will `log 150 to the console` at line 14. It is similarly to the question 2, line 13 will log the last value of *finalPrice* to the console. In the last iteration of the loop, *finalPrice* = Math.round(*discountedPrice* * 100) /100 = Math.round(150 * 100) /100 = 150.
 
 4.  What will this function return? Give a brief explanation why. If the code causes an error, explain why.
-    - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
+    
+      - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
       - With *i* = 0, *discountedPrice* = *prices[i]* * (1 - *discount*) =  *prices[0]* * (1 - 0.5) = 100 * 0.5 = 50. *finalPrice* = Math.round(*discountedPrice* * 100) /100 = Math.round(50 * 100) /100 = 50. --> *discounted* = [50].
       - With *i* = 1, *discountedPrice* = *prices[i]* * (1 - *discount*) =  *prices[1]* * (1 - 0.5) = 200 * 0.5 = 100. *finalPrice* = Math.round(*discountedPrice* * 100) /100 = Math.round(100 * 100) /100 = 100. --> *discounted* = [50, 100].
       -  With *i* = 2, *finalPrice* = 150 (question 3). --> *discounted* = [50, 100, 150].
@@ -58,7 +59,8 @@
     - Line 11 will return `ReferenceError` because the variable *i* is declared using *let* declaration which has block-level scope and is not accessible outside of the for-loop block. Also, line 11 is outside the loop; therefore, *i*  has not been defined yet, causing the *ReferenceError*.
 
 10.  What will happen at line 12 and why? If the code causes an error, explain why.
-    - The code will `log 3 to the console` at line 12. Because the variable *lenggh* equals *prices.length*. Also, *prices* = [100, 200, 300] --> *length* = *prices.length* = 3.
+   
+   - The code will `log 3 to the console` at line 12. Because the variable *lenggh* equals *prices.length*. Also, *prices* = [100, 200, 300] --> *length* = *prices.length* = 3.
 
 11.  What will this function return? Give a brief explanation. If the code causes an error, explain why. 
     - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
