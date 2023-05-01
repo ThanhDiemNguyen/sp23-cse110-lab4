@@ -60,7 +60,7 @@
 
 10.  What will happen at line 12 and why? If the code causes an error, explain why.
    
-   - The code will `log 3 to the console` at line 12. Because the variable *lenggh* equals *prices.length*. Also, *prices* = [100, 200, 300] --> *length* = *prices.length* = 3.
+      - The code will `log 3 to the console` at line 12. Because the variable *lenggh* equals *prices.length*. Also, *prices* = [100, 200, 300] --> *length* = *prices.length* = 3.
 
 11.  What will this function return? Give a brief explanation. If the code causes an error, explain why. 
     - This function will return `[50, 100, 150]`. Each iteration, this code add a computed *finalPrice* to *discounted* set. 
